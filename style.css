@@ -1,0 +1,46 @@
+/* This is my CSS File */
+
+body {
+    background-color: antiquewhite;
+    color: #404040;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 18px;
+  }
+
+  .container{
+    width: 960px;
+    background: white;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  header, footer {
+  background-color: aquamarine;
+
+  }
+
+  .site-title{
+    color: red;
+  }
+
+  #my-image{
+    box-shadow: 0px 0px 2px 1px black;
+  }
+
+  ul {
+    list-style-type: square;
+    }
+
+    a {
+      text-decoration: none;
+      background: cornsilk;
+      border-color: blueviolet;
+         }
+
+    a:hover {
+    background-color: blue;
+     } 
+
+     ul li:nth-child(odd) {
+      background-color: grey;
